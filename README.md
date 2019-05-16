@@ -1,10 +1,8 @@
-# How about a Rust handler in serverless framework?
+# How about a Rust handler in Serverless Framework?
 
-Lambda's can have arbitrary runtimes now. Serverless Framework offers
-the _aws-provided_ template. Can we use this to have a Rust
-backend deployed by SLS?
+Started developing this from the `aws-provided` template but then
+discovered a bunch of work has already been done on a Rust
+plugin for Serverless Framework.
 
-Turns out someone already built the necessary plugin.  I'll work this
-example out to the end so y'all can see it working.
-
-
+So just check this out and `sls deploy` it. It's pretty much
+100% copied from https://github.com/softprops/serverless-aws-rust-http.
