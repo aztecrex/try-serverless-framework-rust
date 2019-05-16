@@ -38,8 +38,8 @@ provider:
 #  environment:
 #    variable1: value1
 
-# package:
-#   individually: true
+package:
+  individually: true
 
 plugins:
   - serverless-rust
