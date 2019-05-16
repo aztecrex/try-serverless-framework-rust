@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/aztecrex/try-serverless-framework-rust/issues"
   },
-  "homepage": "https://github.com/aztecrex/try-serverless-framework-rust#readme"
+  "homepage": "https://github.com/aztecrex/try-serverless-framework-rust#readme",
+  "dependencies": {
+    "serverless-rust": "^0.3.4"
+  }
 }
