@@ -19,7 +19,7 @@ service: prototype # NOTE: update this with your service name
 
 provider:
   name: aws
-  runtime: provided
+  runtime: rust
 
 # you can overwrite defaults here
 #  stage: dev
